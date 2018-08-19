@@ -25,13 +25,14 @@ On Mac:
 * Do the following installs using npm
 * npm install -g protractor
 * npm install -s cucumber@1.3.1
-* install --save-dev protractor-cucumber-framework
+* npm install --save-dev protractor-cucumber-framework
+* npm install chai chai-as-promised
 
 
 ## Running the tests
 
 * Copy the clone URL of this Github repository
-* Open Terminal on Mac and go into the folder where repository needs to be saved
+* Open Terminal on Mac and create a new folder under node_modules.
 * Do git clone <url>
 * Open conf.js and provide the correct relative path for frameworkPath (relative to this config file)
 * Before running the test, execute this command to start selenium server on another terminal window: webdriver-manager start
